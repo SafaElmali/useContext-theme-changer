@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import sunLogo from "./sun.svg";
+import halfMoon from "./half-moon.svg";
+import { ThemeContext, ThemeProvider } from "./ThemeContext";
+import { useContext } from "react";
 
-function App() {
+const App = () => {
+  const { theme, toggleTheme } = useContext(ThemeContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className={`App theme-${theme}`}>
+        <img
+          src={theme === "light" ? sunLogo : halfMoon}
+          className="App-logo"
+          alt="logo"
+        />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <button onClick={toggleTheme} className={`button-${theme}`}>
+          {theme === "light" ? "Set Dark Mode" : "Set Light Mode"}
+        </button>
     </div>
   );
-}
+};
 
-export default App;
+export default () => (
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>
+);
