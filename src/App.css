@@ -1,0 +1,32 @@
+.theme-dark {
+  color: #fcfcfc;
+  background-color: #1d1c1c;
+}
+
+.theme-light {
+  color: #000;
+  background-color: #fcfcfc;
+}
+
+button {
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button-light {
+  color: #000;
+}
+
+.button-dark {
+  background-color: #fddb41;
+  color: #fff;
+}
