@@ -1,23 +1,23 @@
 import { ThemeContext, ThemeProvider } from "./ThemeContext";
 import { useContext } from "react";
 import "./App.css";
-import sunLogo from "./sun.svg";
+import sun from "./sun.svg";
 import halfMoon from "./half-moon.svg";
 
 const App = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { theme, handleToggleTheme } = useContext(ThemeContext);
 
   return (
     <div className={`App theme-${theme}`}>
       <img
-        src={theme === "light" ? sunLogo : halfMoon}
+        src={theme === "light" ? sun : halfMoon}
         className="App-logo"
         alt="logo"
       />
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
-      <button onClick={toggleTheme} className={`button-${theme}`}>
+      <button onClick={handleToggleTheme} className={`button-${theme}`}>
         {theme === "light" ? "Set Dark Mode" : "Set Light Mode"}
       </button>
     </div>
