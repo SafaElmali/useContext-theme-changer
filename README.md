@@ -32,4 +32,4 @@ npm start
 
 ## License
 
-context-api-theme-changer is [MIT licensed](./LICENSE).
+useContext-theme-changer is [MIT licensed](./LICENSE).
