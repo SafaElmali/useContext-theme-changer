@@ -1,6 +1,6 @@
 <div align="center">
   
-# React Context API Example
+# React useContext Hook Example
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)<br>
 
 <i>This repo contains demo codes for my Medium article 👉  <a href="https://tsafaelmali.medium.com/usecontext-hookunu-kullanarak-dark-light-mod-lar%C4%B1-nas%C4%B1l-eklenir-1311ed563ae6">Medium Article</a></i>
