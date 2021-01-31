@@ -7,8 +7,8 @@
 
 ## Preview 
 
-![1_T4b8mxucMAZ2qQoPvWvnwQ](https://user-images.githubusercontent.com/17435062/106383011-42363f00-63d4-11eb-841a-3d3bc68a996a.gif)
-<i>Demo Preview</i><br>
+![1_T4b8mxucMAZ2qQoPvWvnwQ](https://user-images.githubusercontent.com/17435062/106383011-42363f00-63d4-11eb-841a-3d3bc68a996a.gif)<br>
+<i>Demo Preview</i>
 
 </div>
 
